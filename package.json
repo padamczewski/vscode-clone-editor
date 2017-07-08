@@ -16,12 +16,33 @@
         "Other"
     ],
     "activationEvents": [
-        
+        "*"
     ],
     "contributes": {
         "commands": [
-
-        ]
+            {
+				"command": "cloneEditor.defaultGroup",
+				"title": "Clone Editor"
+			},
+            {
+				"command": "cloneEditor.previousGroup",
+				"title": "Clone Editor into Previous Group"
+			},			{
+				"command": "cloneEditor.nextGroup",
+				"title": "Clone Editor into Next Group"
+			},
+			{	"command": "cloneEditor.firstGroup",
+				"title": "Clone Editor into First Group"
+			},
+            {
+				"command": "cloneEditor.secondGroup",
+				"title": "Clone Editor into Second Group"
+			},
+            {
+				"command": "cloneEditor.thirdGroup",
+				"title": "Clone Editor into Third Group"
+			}
+		]
     },
     "main": "./out/src/extension",
     "scripts": {
